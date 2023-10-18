@@ -1,0 +1,42 @@
+div{
+   
+    position: relative;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.div1{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 1;
+}
+
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+}
+.div3{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    z-index: 3;
+}
+.div4{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 210px;
+    left: 210px;
+    z-index: 4;
+}
